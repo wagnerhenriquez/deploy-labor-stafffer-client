@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from "next/router"
-import styles from '../BgVideo/bgVideo.module.css'
+import styles from '../BgVideo/BgVideo.module.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Link from 'next/link'
 
