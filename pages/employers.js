@@ -1,8 +1,8 @@
 import React from 'react'
-import Employer from "../components/Employers/employer";
+import Employer from "../components/Employers/Employer";
 import HeaderEmployers from '../components/HeaderEmployers/HeaderEmployers'
 
-export default function employers({states}) {
+export default function Employers({states}) {
   return (
     <div>
       <HeaderEmployers /> 
