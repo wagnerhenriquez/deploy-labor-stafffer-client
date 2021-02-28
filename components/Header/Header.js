@@ -1,13 +1,10 @@
 import React from "react"
 import Link from 'next/link'
-import PhoneIcon from '@material-ui/icons/Phone';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedinIcon from '@material-ui/icons/Linkedin';
-import EmailIcon from '@material-ui/icons/Email';
-import ApartmentIcon from '@material-ui/icons/Apartment';
-import Navigation from '../Navigation/Navigation'
+import PhoneIcon from '@material-ui/icons/Phone'
+import TwitterIcon from '@material-ui/icons/Twitter'
+import InstagramIcon from '@material-ui/icons/Instagram'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import LinkedinIcon from '@material-ui/icons/LinkedIn'
 
 
 import styles from "./Header.module.css"
