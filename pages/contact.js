@@ -3,7 +3,7 @@ import HeaderContact from '../components/HeaderContact/HeaderContact'
 import ContactUs from '../components/ContactUs/contactUs'
 
 
-export default function contactUS({states}) {
+export default function ContactUS({states}) {
   return (
     <div>
       <HeaderContact/>
