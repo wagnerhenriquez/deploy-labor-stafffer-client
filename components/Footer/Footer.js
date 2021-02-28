@@ -6,7 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import RoomIcon from '@material-ui/icons/Room';
 import EmailIcon from '@material-ui/icons/Email';
 import ApartmentIcon from '@material-ui/icons/Apartment';
-import LinkedinIcon from '@material-ui/icons/Linkedin';
+import LinkedinIcon from '@material-ui/icons/LinkedIn'
 import styles from '../Footer/Footer.module.css'
 
 export default function Footer() {
