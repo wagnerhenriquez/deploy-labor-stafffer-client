@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../contactUs/contactUs.module.css"
+import styles from "../ContactUs/ContactUs.module.css"
 import getConfig from 'next/config'
 import { useState } from 'react'
 import { parseCookies  } from 'nookies'
