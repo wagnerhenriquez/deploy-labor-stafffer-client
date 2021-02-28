@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderContact from '../components/HeaderContact/HeaderContact'
-import ContactUs from '../components/ContactUs/contactUs'
+import ContactUs from '../components/ContactUs/ContactUs'
 
 
 export default function ContactUS({states}) {
