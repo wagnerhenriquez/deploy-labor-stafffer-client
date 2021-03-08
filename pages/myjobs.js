@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { parseCookies  } from 'nookies'
-
-import HeadersJob from '../components/HeaderJobs/HeaderJobs'
+import styles from '../components/HeaderJobs/Apply.module.css'
+import HeaderLogin from '../components/HeaderLogin/HeaderLogin'
 import useMe from '../hooks/useMe'
 import getConfig from 'next/config'
 
@@ -30,13 +30,14 @@ export default function myJobs() {
 
   return (
     <>
-      <HeadersJob />
-      <h1>{user?.username}</h1>
-      <h2>Jobs applies</h2>
-      <ul>
+      <HeaderLogin />
+      <div className={styles.container}>
+      <h1 className={styles.h1}>{user?.username}</h1>
+      <h2 className={styles.h22}>Applied jobs</h2>
+      <ul className={styles.ul}>
          {myJobs.map(job=>(<li key={job.id}>{job.title}</li>))}
       </ul>
-    
+    </div>
     </>
   )
 }

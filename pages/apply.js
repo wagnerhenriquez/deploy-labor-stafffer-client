@@ -104,7 +104,7 @@ export default function ApplyMe() {
         </div>
   <h2>Upload your resume or to create a resume click here</h2>
 
-{userResumen.avatar && <img className={styles.img} src={`${publicRuntimeConfig.API_URL}${userResumen.avatar.url}` } alt={userResumen.name} width="30px"/>}
+{/* {userResumen.avatar && <img className={styles.img} src={`${publicRuntimeConfig.API_URL}${userResumen.avatar.url}` } alt={userResumen.name} width="30px"/>} */}
 <h3>{userResumen.name}</h3>
 <p>phone {userResumen.phone}</p>
 <p>address {userResumen.address}</p>

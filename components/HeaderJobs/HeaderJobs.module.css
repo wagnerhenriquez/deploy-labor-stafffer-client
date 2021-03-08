@@ -120,13 +120,6 @@ cursor: pointer;
 
 @media all and (max-width: 790px) {
 
-  .btnJobs {
-      display: none;
-  }
-  .btnJobMobile {
-      display: initial;
-      width: 100%;
-  }
   .title {
       width: 90%;
   }

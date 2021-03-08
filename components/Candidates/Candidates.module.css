@@ -239,6 +239,10 @@
   margin: 0 0 0 100px;
 }
 
+.tabOne {
+  
+}
+
 .tabTwo,
 .tabThree {
   display: none;
@@ -298,7 +302,13 @@
   }
   .two {
       text-align: start;
+      flex-direction: column;
+      width: 95%;
   }
+  .btnPage2 {
+    float: none;
+  }
+
   .two .btnSide {
       justify-content: flex-end;
   }

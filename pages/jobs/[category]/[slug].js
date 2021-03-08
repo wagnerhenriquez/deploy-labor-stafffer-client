@@ -52,7 +52,7 @@ useEffect(()=>{
 
 const  goToApply = (e)=>{
   e.preventDefault()
-  console.log('Aplicando al Job',job)
+  // console.log('Aplicando al Job',job)
      job.aspirantes.map( aspirante=>{   
        console.log('por aqui') 
       if (userId == aspirante.id){ 
@@ -77,7 +77,7 @@ const  goToApply = (e)=>{
      body: JSON.stringify(data) 
    })
     const dataPost = await applyJobResponse.json()
-    console.log('Guardando Id de Candidato')
+    // console.log('Guardando Id de Candidato')
 
     Swal.fire({
       icon: 'success',
@@ -95,11 +95,11 @@ applyJob()
 if(!userId){
   Swal.fire({
     icon: 'warning',
-    text: `great, you need loged .
-    now, go to login ` ,
+    text: `You need log in to see this page, go to login or register` ,
     title: 'You need login to applied!',
-    footer: '<a href>Why do I have this issue?</a>'
+    footer: '<a href="/register">Or register with a new account</a>'
   })
+  // Router.push('/login')
 }
   
  

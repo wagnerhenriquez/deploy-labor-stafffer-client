@@ -105,8 +105,7 @@ export default function Resume(candidate,data) {
                 onChange={e => setPhone(e.target.value) } 
                 value={phone} 
                 placeholder="Type a valid phone number"
-                ref={register}
-                name="phone" 
+                ref={register} name="phone" 
                 />
                 </div>
                 <div>

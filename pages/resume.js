@@ -94,7 +94,7 @@ e => setPhone(e.target.value)
      <form onSubmit={handleSubmit(onSubmit)}  encType =  "multipart/form-data">
                 <div className={styles.intro}>
                 <label className={styles.label} htmlFor="phone">Phone number <span className={styles.span}>*</span></label>
-                <input className={styles.input} type="text" onChange={e =>setPhone(e.target.valu)} value={phone} 
+                <input className={styles.input} type="text" onChange={e =>setPhone(e.target.value)} value={phone} 
                 placeholder="Type a valid phone number" ref={register}
                 name="phone"/>
                 </div>

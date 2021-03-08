@@ -14,7 +14,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.logoFooter}>
-          <img className={styles.img} src="/assets/media/Logo-white.png" alt="company logo" />
+          <img className={styles.img} src="/assets/media/Logowhite.png" alt="company logo" />
         </div>
         <div className={styles.txt}>
           <h3 className={styles.h3}>for candidates</h3>
@@ -42,7 +42,7 @@ export default function Footer() {
         <div className={styles.txt}>
           <h3 className={styles.h3}>contact us</h3>
           <ul className={styles.ul}>
-            <li className={styles.li}><i className={styles.i}><RoomIcon /></i>1106 Church Street Hollidaysburg, PA 16648</li>
+            <li className={styles.li}><i className={styles.i}><RoomIcon /></i>524 3rd Avenue, Duncansville, PA 16635</li>
             <li className={styles.li}><i className={styles.i}><EmailIcon /></i>Dave@laborstaffers.com</li>
             <li className={styles.li}><i className={styles.i}><PhoneIcon /></i>+1 (814) 889-9125</li>
             <li className={styles.li}><i className={styles.i}><ApartmentIcon /></i>Labor Staffers</li>

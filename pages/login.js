@@ -116,7 +116,7 @@ headers: {
             <div>
                 <div className={styles.container1}>
                     <div >
-                        <p>You need to login to access this page</p>
+                        <p>You need to login to access this page and apply for a job</p>
                     </div>
 
                     <form className={styles.form}>

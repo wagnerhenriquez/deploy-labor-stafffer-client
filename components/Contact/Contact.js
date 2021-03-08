@@ -168,7 +168,7 @@ return (
                 <div className={styles.separator}>
                 <div>
                 <label htmlFor="staff">Service needed <span>*</span></label>
-                <select name="staff" onChange={e => setStaff(e.target.value) } value={staff} className={styles.select}>
+                <select name="staff" onChange={e => setStaff(e.target.value) } value={service} className={styles.select}>
                     <option value="Temporary staffing">Temporary staffing</option>
                     <option value="Temp-to-hire">Temp-to-hire</option>
                     <option value="Direct hire">Direct hire</option>

@@ -21,6 +21,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  background-color: #2D5FDE;
 }
 
 .btns{
@@ -73,6 +78,23 @@
   width: 80%;
   margin: 0 auto;
 }
+.professionalRecruiting2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+}
+.professionalRecruiting3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+}
+
 
 .sideText {
   display: flex;
@@ -108,6 +130,14 @@
   background-color: transparent;
   border: 1px solid  #E87D1B;
   margin: 0 20px 0 0;
+  transition: .5s ease;
+
+}
+
+.btn:nth-child(2):hover {
+  color: #fff;
+  background-color: #2D5FDE;
+  border: none;
 
 }
 
@@ -118,7 +148,9 @@
       color: #fff;
       margin: 20px 0;
   }
-  .professionalRecruiting { 
+  .professionalRecruiting,
+  .professionalRecruiting2,
+  .professionalRecruiting3 { 
       align-items: flex-start;
       flex-direction: column;
       width: 90%;
@@ -172,11 +204,20 @@
 }
 @media all and (max-width: 320px) {
 
-  .professionalRecruiting {
+  .professionalRecruiting,
+  .professionalRecruiting2,
+  .professionalRecruiting3 {
     width: 95%;
   }
   .sideText .h3 {
     font-size: 1.6rem;
   }
+}
+
+.none{
+  display: none;
+}
+.block{
+  display: block;
 }
 

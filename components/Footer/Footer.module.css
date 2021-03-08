@@ -17,7 +17,7 @@
 }
 
 .logoFooter .img {
-  width: 200px;
+  width: 300px;
 }
 
 .txt .h3 {
@@ -95,8 +95,8 @@
   .footer {
       padding: 20px;
   }
-  .logoFooter img {
-      width: 150px;
+  .logoFooter .img {
+      width: 200px;
   }
   .logoFooter p {
       width: fit-content;

@@ -23,7 +23,8 @@ function S1() {
        case 'dos':
         setClaseDivUno(false)
         setClaseDivUno(true)
-        setClaseDivTres(false)
+          setClaseDivTres(false)
+          alert('dos')
         break
 
         case 'tres':
@@ -50,6 +51,7 @@ function S1() {
             <p className={styles.p} onClick={(e)=>setearClases(e)} id={'tres'}>Find your dream job</p>
           </div>
         </div>
+        {/* tab 1 */}
         <div className={styles.professionalRecruiting}>
           <div className={styles.pic}>
             <img className={styles.img} src="/assets/media/home/recruiting.png" alt="People Recruiting" />
@@ -64,6 +66,36 @@ function S1() {
           </div>
         </div >
 
+        {/* tab 2 */}
+      <div className={styles.professionalRecruiting2}>
+          <div className={styles.pic}>
+            <img className={styles.img} src="/assets/media/home/temporary-staff2.png" alt="Temporary Staff" />
+          </div>
+          <div className={styles.sideText}>
+            <h3 className={styles.h3}>Temporary Staff</h3>
+            <p className={styles.p}>Praesent elementum posuere consequat. Nulla ac rutrum nunc. Morbi varius, nisi nec facilisis finibus, felis velit semper magna, non rhoncus eros eros nec risus. In vel nisi quis magna viverra blandit in quis felis. Nam nisl erat, auctor ut hendrerit in, mollis et ipsum. Nulla sit amet neque eleifend, dictum magna ac, accumsan diam. Ut consequat efficitur aliquet.</p>
+            <div className={styles.btnSide}>
+            <div  className={styles.btn}><Link href="/employers"><a href="#">request staff</a></Link></div>
+            <div  className={styles.btn}><Link href="/about"><a href="#">give us a call</a></Link></div>
+            </div>
+          </div>
+        </div >
+
+        {/* tab 3 */}
+
+         <div className={styles.professionalRecruiting3}>
+          <div className={styles.pic}>
+            <img className={styles.img} src="/assets/media/home/find-job.png" alt="Find a job" />
+          </div>
+          <div className={styles.sideText}>
+            <h3 className={styles.h3}>Find Your Dream Job</h3>
+            <p className={styles.p}>Praesent elementum posuere consequat. Nulla ac rutrum nunc. Morbi varius, nisi nec facilisis finibus, felis velit semper magna, non rhoncus eros eros nec risus. In vel nisi quis magna viverra blandit in quis felis. Nam nisl erat, auctor ut hendrerit in, mollis et ipsum. Nulla sit amet neque eleifend, dictum magna ac, accumsan diam. Ut consequat efficitur aliquet.</p>
+            <div className={styles.btnSide}>
+            <div  className={styles.btn}><Link href="/employers"><a href="#">request staff</a></Link></div>
+            <div  className={styles.btn}><Link href="/about"><a href="#">give us a call</a></Link></div>
+            </div>
+          </div>
+        </div >
       </section >
     </>
   )

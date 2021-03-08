@@ -3,10 +3,26 @@
   margin: 0 auto;
 }
 
+.h1  {
+ font-size: 3rem;
+ color: #E87D1B;
+}
+
 .h2 {
   font-size: 3rem;
 }
 
+.h22 {
+  font-size: 2rem;
+}
+
+.ul  {
+  margin-bottom: 50px;
+}
+
+.ul li {
+  padding: 0;
+}
 .pdfs {
   display: flex;
   justify-content: center;

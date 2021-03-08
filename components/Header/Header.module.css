@@ -52,7 +52,7 @@
 }
 
 .logo img  {
-  width: 120px;
+  width: 180px;
 }
 
 .links, .ul {
@@ -61,6 +61,7 @@
 
 .ul .li {
   padding: 0px 0px 0px 30px;
+  margin: 8px;
 }
 
 .ul .li .a:hover {
@@ -224,7 +225,7 @@ transition: color 0.4s ease;
       width: 30%;
   }
 }
-@media all and (max-width: 1150px) {
+@media all and (max-width: 1182px) {
   .links {
       display: none;
   }
@@ -252,7 +253,7 @@ transition: color 0.4s ease;
   }
   .logoMobile img {
      
-      width: 120px;
+      width: 140px;
   }
   .menu {
       background-color: transparent;
